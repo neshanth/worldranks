@@ -7,14 +7,16 @@ import Region from "../../components/Filters/Region/Region";
 const Home = () => {
   return (
     <div className="home">
-      <div className="filters">
-        <Header />
-        <Sorting />
-        <Region />
-        <Status />
-      </div>
-      <div className="countries-table">
-        <Table />
+      <Header />
+      <div className="home-content">
+        <div className="filters">
+          <Sorting />
+          <Region />
+          <Status />
+        </div>
+        <div className="countries-table">
+          <Table />
+        </div>
       </div>
     </div>
   );
