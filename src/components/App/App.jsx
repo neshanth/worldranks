@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import "./App.css";
-import Logo from "./components/Logo/Logo";
-import Home from "./pages/Home/Home";
-import CountryDetails from "./pages/CountryDetails/CountryDetails";
+import Logo from "../Logo/Logo";
+import Home from "../../pages/Home/Home";
+import CountryDetails from "../../pages/CountryDetails/CountryDetails";
+import styles from "./App.module.css";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,7 +18,7 @@ function App() {
   return (
     <>
       <Logo />
-      <main className="main">
+      <main className={styles.main}>
         <RouterProvider router={router} />
       </main>
     </>

@@ -1,4 +1,4 @@
-import Search from "../Filters/Search";
+import Search from "../Search/Search";
 
 const Header = () => {
   return (

@@ -1,0 +1,14 @@
+.search {
+    background-color: #282B30;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+    color: inherit;
+}
+
+.searchInput {
+    background: none;
+    border: none;
+    width: 100%;
+}
