@@ -1,0 +1,15 @@
+.status {
+    margin-top: 2rem;
+}
+
+.statusOption {
+    margin-bottom: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+input[type="checkbox"] {
+    width: 1.25rem;
+    height: 1.25rem;
+}
