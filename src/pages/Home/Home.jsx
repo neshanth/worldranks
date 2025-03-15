@@ -1,8 +1,8 @@
-import Region from "../../components/Filters/Region";
 import Header from "../../components/Header/Header";
 import Status from "../../components/Filters/Status";
 import Table from "../../components/Table/Table";
 import Sorting from "../../components/Filters/Sorting/Sorting";
+import Region from "../../components/Filters/Region/Region";
 
 const Home = () => {
   return (

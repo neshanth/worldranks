@@ -1,0 +1,10 @@
+.region {
+    margin-top: 2rem;
+}
+
+.regionOptions {
+    display: flex;
+    gap: 1em;
+    cursor: pointer;
+    font-size: 0.875rem;
+}

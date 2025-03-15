@@ -18,7 +18,7 @@ const Sorting = () => {
   ]);
   return (
     <div className={styles.sorting}>
-      <p className={styles.sortingTitle}>Sort by</p>
+      <p className="filter-title">Sort by</p>
       <select className={styles.sortingOptions}>
         {options.map((option) => (
           <option className={styles.option} key={option.value} value={option.value}>
